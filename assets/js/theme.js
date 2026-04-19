@@ -1,35 +1,6 @@
 (function () {
     'use strict';
 
-    function movePupils(e) {
-        var container = document.querySelector('.wolf-eye-container');
-        if (!container) return;
-
-        var eyes = container.querySelectorAll('.wolf-eye');
-        if (!eyes.length) return;
-
-        // Wspólny kierunek od środka pary oczu — ta sama translacja px w każdym oknie (bez lustrzanki na całej „soczewce”).
-        var cr = container.getBoundingClientRect();
-        var midX = cr.left + cr.width / 2;
-        var midY = cr.top + cr.height / 2;
-        var dx = e.clientX - midX;
-        var dy = e.clientY - midY;
-        var len = Math.hypot(dx, dy);
-        var maxMove = 5.5;
-        var strength = len > 0 ? Math.min(maxMove, len / 42) : 0;
-        var moveX = len > 0 ? (dx / len) * strength : 0;
-        var moveY = len > 0 ? (dy / len) * strength : 0;
-
-        eyes.forEach(function (eye) {
-            var pupil = eye.querySelector('.wolf-pupil');
-            if (!pupil) return;
-            pupil.style.transform =
-                'translate(calc(-50% + ' + moveX + 'px), calc(-50% + ' + moveY + 'px))';
-        });
-    }
-
-    document.addEventListener('mousemove', movePupils);
-
     function revealOnScroll() {
         var reveals = document.querySelectorAll('.reveal');
         var windowHeight = window.innerHeight;

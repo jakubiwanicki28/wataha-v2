@@ -14,7 +14,7 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-define('SUDECKA_WATAHA_VER', '1.0.2');
+define('SUDECKA_WATAHA_VER', '1.0.3');
 
 /**
  * Wersja assetu oparta o mtime pliku, aby przelamywac cache po deployu.
@@ -187,6 +187,13 @@ function sudecka_wataha_assets(): void
         get_template_directory_uri() . '/assets/css/theme.css',
         ['sudecka-wataha-fonts', 'sudecka-wataha'],
         sudecka_wataha_asset_version('/assets/css/theme.css')
+    );
+
+    wp_enqueue_style(
+        'sudecka-wataha-overrides',
+        get_template_directory_uri() . '/assets/css/overrides.css',
+        ['sudecka-wataha-theme'],
+        sudecka_wataha_asset_version('/assets/css/overrides.css')
     );
 
     wp_enqueue_script(

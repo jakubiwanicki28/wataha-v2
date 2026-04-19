@@ -18,14 +18,6 @@ get_header();
             decoding="async"
         >
         <div class="hero__content text-center px-4">
-            <div class="wolf-eye-container mx-auto">
-                <div class="wolf-eye wolf-eye--left" aria-hidden="true">
-                    <span class="wolf-pupil"></span>
-                </div>
-                <div class="wolf-eye wolf-eye--right" aria-hidden="true">
-                    <span class="wolf-pupil"></span>
-                </div>
-            </div>
             <p class="hero__kicker reveal active"><?php esc_html_e('Strzelecki Klub Sportowy', 'sudecka-wataha'); ?></p>
             <h1 class="hero__title font-serif reveal"><?php esc_html_e('SUDECKA WATAHA', 'sudecka-wataha'); ?></h1>
             <p class="hero__quote reveal">
