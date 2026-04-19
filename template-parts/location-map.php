@@ -25,7 +25,7 @@ $place = sudecka_wataha_maps_place_url();
         <div class="sw-map-frame reveal">
             <iframe
                 src="<?php echo esc_url($embed); ?>"
-                title="<?php esc_attr_e('Mapa Google — Strzelnica Sudecka', 'sudecka-wataha'); ?>"
+                title="<?php esc_attr_e('Mapa Google - Strzelnica Sudecka', 'sudecka-wataha'); ?>"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
                 allowfullscreen

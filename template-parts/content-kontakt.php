@@ -13,7 +13,7 @@ $sw_contact_feedback = in_array($sw_contact_raw, $sw_contact_allowed, true) ? $s
         <div class="sw-page-head__text">
             <p class="sw-eyebrow"><?php esc_html_e('Kontakt', 'sudecka-wataha'); ?></p>
             <h1 class="page-title font-serif"><?php esc_html_e('Kontakt', 'sudecka-wataha'); ?></h1>
-            <p class="sw-lead"><?php esc_html_e('Napisz — odpowiadamy członkom i kandydatom.', 'sudecka-wataha'); ?></p>
+            <p class="sw-lead"><?php esc_html_e('Napisz - odpowiadamy członkom i kandydatom.', 'sudecka-wataha'); ?></p>
         </div>
         <figure class="sw-media sw-media--landscape sw-page-head__media" aria-label="<?php esc_attr_e('Miejsce na zdjęcie', 'sudecka-wataha'); ?>">
             <div class="sw-media__frame">
@@ -29,7 +29,7 @@ $sw_contact_feedback = in_array($sw_contact_raw, $sw_contact_allowed, true) ? $s
 
         <?php if ($sw_contact_feedback === 'thanks') : ?>
             <p class="sw-contact-form__notice sw-contact-form__notice--success" role="status">
-                <?php esc_html_e('Dziękujemy — wiadomość została wysłana. Odezwiemy się najszybciej, jak to możliwe.', 'sudecka-wataha'); ?>
+                <?php esc_html_e('Dziękujemy - wiadomość została wysłana. Odezwiemy się najszybciej, jak to możliwe.', 'sudecka-wataha'); ?>
             </p>
         <?php elseif ($sw_contact_feedback === 'failed') : ?>
             <p class="sw-contact-form__notice sw-contact-form__notice--error" role="alert">
@@ -49,7 +49,7 @@ $sw_contact_feedback = in_array($sw_contact_raw, $sw_contact_allowed, true) ? $s
             </p>
         <?php endif; ?>
 
-        <p class="sw-contact-form__intro"><?php esc_html_e('Wypełnij formularz — trafi do naszej skrzynki. Możesz też napisać bezpośrednio:', 'sudecka-wataha'); ?>
+        <p class="sw-contact-form__intro"><?php esc_html_e('Wypełnij formularz - trafi do naszej skrzynki. Możesz też napisać bezpośrednio:', 'sudecka-wataha'); ?>
             <a href="<?php echo esc_url('mailto:' . $sw_contact_email); ?>"><?php echo esc_html($sw_contact_email); ?></a>
         </p>
 

@@ -48,7 +48,7 @@ get_header();
                 </div>
                 <h2 class="pack-grid-section__title font-serif uppercase tracking-[0.2em] text-2xl sm:text-3xl md:text-4xl font-bold mb-6"><?php esc_html_e('Witaj w stadzie', 'sudecka-wataha'); ?></h2>
                 <p class="pack-grid-section__lead max-w-2xl mx-auto font-light leading-relaxed text-sm sm:text-base">
-                    <?php esc_html_e('Stowarzyszenie Strzelecki Klub Sportowy — miejsce dla pasji, bezpieczeństwa i sportowego charakteru.', 'sudecka-wataha'); ?>
+                    <?php esc_html_e('Stowarzyszenie Strzelecki Klub Sportowy - miejsce dla pasji, bezpieczeństwa i sportowego charakteru.', 'sudecka-wataha'); ?>
                 </p>
             </header>
             <div class="pack-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6 reveal">
@@ -66,7 +66,7 @@ get_header();
                     <span class="pack-card__idx" aria-hidden="true">02</span>
                     <div class="pack-card__inner">
                         <h3 class="pack-card__title font-serif"><?php esc_html_e('Jak zostać członkiem?', 'sudecka-wataha'); ?></h3>
-                        <p class="pack-card__desc"><?php esc_html_e('Kroki, dokumenty, składki — od deklaracji po decyzję zarządu.', 'sudecka-wataha'); ?></p>
+                        <p class="pack-card__desc"><?php esc_html_e('Kroki, dokumenty, składki - od deklaracji po decyzję zarządu.', 'sudecka-wataha'); ?></p>
                         <span class="pack-card__cta"><span><?php esc_html_e('Otwórz', 'sudecka-wataha'); ?></span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></span>
                     </div>
                 </a>
@@ -84,7 +84,7 @@ get_header();
                     <span class="pack-card__idx" aria-hidden="true">04</span>
                     <div class="pack-card__inner">
                         <h3 class="pack-card__title font-serif"><?php esc_html_e('Licencja sportowa', 'sudecka-wataha'); ?></h3>
-                        <p class="pack-card__desc"><?php esc_html_e('Pierwsza licencja i przedłużenie — kalendarz startów i procedury.', 'sudecka-wataha'); ?></p>
+                        <p class="pack-card__desc"><?php esc_html_e('Pierwsza licencja i przedłużenie - kalendarz startów i procedury.', 'sudecka-wataha'); ?></p>
                         <span class="pack-card__cta"><span><?php esc_html_e('Otwórz', 'sudecka-wataha'); ?></span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></span>
                     </div>
                 </a>
@@ -93,7 +93,7 @@ get_header();
                     <span class="pack-card__idx" aria-hidden="true">05</span>
                     <div class="pack-card__inner">
                         <h3 class="pack-card__title font-serif"><?php esc_html_e('Pozwolenie na broń', 'sudecka-wataha'); ?></h3>
-                        <p class="pack-card__desc"><?php esc_html_e('Ścieżka sportowa i kolekcjonerska — kroki, dokumenty, porównanie.', 'sudecka-wataha'); ?></p>
+                        <p class="pack-card__desc"><?php esc_html_e('Ścieżka sportowa i kolekcjonerska - kroki, dokumenty, porównanie.', 'sudecka-wataha'); ?></p>
                         <span class="pack-card__cta"><span><?php esc_html_e('Otwórz', 'sudecka-wataha'); ?></span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></span>
                     </div>
                 </a>
@@ -102,7 +102,7 @@ get_header();
                     <span class="pack-card__idx" aria-hidden="true">06</span>
                     <div class="pack-card__inner">
                         <h3 class="pack-card__title font-serif"><?php esc_html_e('Kontakt', 'sudecka-wataha'); ?></h3>
-                        <p class="pack-card__desc"><?php esc_html_e('Napisz do nas — jesteśmy na miejscu dla członków i kandydatów.', 'sudecka-wataha'); ?></p>
+                        <p class="pack-card__desc"><?php esc_html_e('Napisz do nas - jesteśmy na miejscu dla członków i kandydatów.', 'sudecka-wataha'); ?></p>
                         <span class="pack-card__cta"><span><?php esc_html_e('Otwórz', 'sudecka-wataha'); ?></span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></span>
                     </div>
                 </a>
@@ -115,7 +115,7 @@ get_header();
             <p class="home-contact-cta__eyebrow"><?php esc_html_e('Masz pytania lub chcesz dołączyć?', 'sudecka-wataha'); ?></p>
             <h2 class="krs-band__title text-2xl sm:text-3xl mb-5 font-serif"><?php esc_html_e('Skontaktuj się z nami', 'sudecka-wataha'); ?></h2>
             <p class="krs-band__text font-light text-sm sm:text-base max-w-2xl mx-auto mb-8">
-                <?php esc_html_e('Napisz — pomożemy członkom, kandydatom i osobom zainteresowanym klubem. Na stronie Kontakt znajdziesz formularz oraz dane do przelewów.', 'sudecka-wataha'); ?>
+                <?php esc_html_e('Napisz - pomożemy członkom, kandydatom i osobom zainteresowanym klubem. Na stronie Kontakt znajdziesz formularz oraz dane do przelewów.', 'sudecka-wataha'); ?>
             </p>
             <a href="<?php echo esc_url(home_url('/kontakt/')); ?>" class="home-contact-cta__btn"><?php esc_html_e('Przejdź do kontaktu', 'sudecka-wataha'); ?></a>
         </div>

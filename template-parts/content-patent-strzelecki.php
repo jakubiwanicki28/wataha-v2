@@ -11,7 +11,7 @@ $kalendarz_url = home_url('/kalendarz/');
         <div class="sw-page-head__text">
             <p class="sw-eyebrow"><?php esc_html_e('Formalności', 'sudecka-wataha'); ?></p>
             <h1 class="page-title font-serif"><?php esc_html_e('Patent strzelecki', 'sudecka-wataha'); ?></h1>
-            <p class="sw-lead"><?php esc_html_e('Procedura PZSS, staż, egzamin teoretyczny i praktyczny — krok po kroku.', 'sudecka-wataha'); ?></p>
+            <p class="sw-lead"><?php esc_html_e('Procedura PZSS, staż, egzamin teoretyczny i praktyczny - krok po kroku.', 'sudecka-wataha'); ?></p>
         </div>
         <figure class="sw-media sw-media--landscape sw-page-head__media" aria-label="<?php esc_attr_e('Miejsce na zdjęcie', 'sudecka-wataha'); ?>">
             <div class="sw-media__frame">
@@ -32,8 +32,8 @@ $kalendarz_url = home_url('/kalendarz/');
             <li><?php esc_html_e('Po upływie 1-miesięcznego* stażu możesz się zapisać na egzamin: należy się zalogować do systemu informatycznego oraz w zakładce „Egzaminy na patent”, „Pokaż przyszłe egzaminy” wybrać dostępny termin (możliwość zapisu otwiera się w systemie po godzinie 00:00 zazwyczaj na 7 dni przed terminem egzaminu);', 'sudecka-wataha'); ?></li>
             <li><?php esc_html_e('Po wybraniu terminu dokonaj opłaty 400 zł za egzamin na konto PZSS (uwaga: wyłącznie przez system dot pay);', 'sudecka-wataha'); ?></li>
             <li><?php esc_html_e('Wypełnij wniosek (generowany automatycznie w systemie informatycznym PZSS) ze wskazaniem pożądanych dyscyplin (zachęcamy do wybrania wszystkich, tj. pistolet, karabin, strzelba gładkolufowa);', 'sudecka-wataha'); ?></li>
-            <li><?php esc_html_e('Wykonaj badania lekarskie i uzyskaj zaświadczenie o braku przeciwskazań zdrowotnych do uprawiania strzelectwa — koszt orientacyjny 200–300 zł, podpis lekarza na wniosku o patent strzelecki (uwaga: zgodnie z interpretacją PZSS badania nie muszą być wykonane u lekarza medycyny sportowej);', 'sudecka-wataha'); ?></li>
-            <li><?php esc_html_e('Skontaktuj się z Kierownikiem Klubu aby uzyskać potwierdzenie przynależności i stażu zawodniczego — podpis Kierownika na wniosku.', 'sudecka-wataha'); ?></li>
+            <li><?php esc_html_e('Wykonaj badania lekarskie i uzyskaj zaświadczenie o braku przeciwskazań zdrowotnych do uprawiania strzelectwa - koszt orientacyjny 200–300 zł, podpis lekarza na wniosku o patent strzelecki (uwaga: zgodnie z interpretacją PZSS badania nie muszą być wykonane u lekarza medycyny sportowej);', 'sudecka-wataha'); ?></li>
+            <li><?php esc_html_e('Skontaktuj się z Kierownikiem Klubu aby uzyskać potwierdzenie przynależności i stażu zawodniczego - podpis Kierownika na wniosku.', 'sudecka-wataha'); ?></li>
         </ol>
         <p class="sw-muted"><?php esc_html_e('* Zgodnie z nowelizacją ustawy z dnia 21 maja 1999 roku o broni i amunicji dokonanej na podstawie art. 10 ust. 2 ustawy z dnia 26 stycznia 2023 roku o zmianie ustaw w celu likwidowania zbędnych barier administracyjnych i prawnych. Przed nowelizacją, minimalny staż treningowy umożliwiający dopuszczenie do egzaminu wynosił 3 miesiące.', 'sudecka-wataha'); ?></p>
     </section>
@@ -50,7 +50,7 @@ $kalendarz_url = home_url('/kalendarz/');
         <h2><?php esc_html_e('Przygotowanie do egzaminu', 'sudecka-wataha'); ?></h2>
         <p><?php esc_html_e('W trakcie odbywania stażu zawodniczego przygotowuj się do części teoretycznej egzaminu poprzez studiowanie Ustawy o Broni i Amunicji oraz związanych z nią rozporządzeń, regulaminów sportowych oraz zasad bezpieczeństwa w sporcie strzeleckim. Polecamy korzystanie z portalu stworzonego przez Braterstwo (KS Amator) pod adresem:', 'sudecka-wataha'); ?>
             <a href="<?php echo esc_url($patent_portal); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e('PatentStrzelecki.eu', 'sudecka-wataha'); ?></a>.
-            <?php esc_html_e('Miej jednakże na uwadze, iż pula pytań na prawdziwym egzaminie jest otwarta, tzn. możesz trafić na pytanie, które nie zostało opracowane w wyżej wymienionym kursie. Stąd polecamy zapoznanie się z materiałami źródłowymi. Szkolenia przygotowujące do części praktycznej odbywają się w naszym Klubie min. 4 razy w ciągu roku — informacja o najbliższym szkoleniu na stronie', 'sudecka-wataha'); ?>
+            <?php esc_html_e('Miej jednakże na uwadze, iż pula pytań na prawdziwym egzaminie jest otwarta, tzn. możesz trafić na pytanie, które nie zostało opracowane w wyżej wymienionym kursie. Stąd polecamy zapoznanie się z materiałami źródłowymi. Szkolenia przygotowujące do części praktycznej odbywają się w naszym Klubie min. 4 razy w ciągu roku - informacja o najbliższym szkoleniu na stronie', 'sudecka-wataha'); ?>
             <a href="<?php echo esc_url($kalendarz_url); ?>"><?php esc_html_e('Członkostwo: Kalendarz', 'sudecka-wataha'); ?></a>.
         </p>
     </section>
@@ -80,23 +80,23 @@ $kalendarz_url = home_url('/kalendarz/');
         <h3><?php esc_html_e('Część praktyczna', 'sudecka-wataha'); ?></h3>
         <p><?php esc_html_e('Część praktyczna składa się ze sprawdzenia przestrzegania regulaminu strzelnicy, sprawdzenia umiejętności wykonywania czynności z bronią (rozkładanie i składanie broni, ładowanie i rozładowywanie, zabezpieczanie broni, usuwanie zacięć) oraz sprawdzianu strzeleckiego z użyciem wszystkich broni wskazanych we wniosku.', 'sudecka-wataha'); ?></p>
 
-        <h3><?php esc_html_e('Wymagania — pistolet', 'sudecka-wataha'); ?></h3>
+        <h3><?php esc_html_e('Wymagania - pistolet', 'sudecka-wataha'); ?></h3>
         <ul>
             <li><?php esc_html_e('czas trwania: 5 min', 'sudecka-wataha'); ?></li>
             <li><?php esc_html_e('postawa stojąca', 'sudecka-wataha'); ?></li>
-            <li><?php esc_html_e('ilość strzałów: 5 — boczny lub centralny zapłon (odległość 25 m, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 15 cm) lub pneumatyczny (odległość 10 m, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 5 cm)', 'sudecka-wataha'); ?></li>
+            <li><?php esc_html_e('ilość strzałów: 5 - boczny lub centralny zapłon (odległość 25 m, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 15 cm) lub pneumatyczny (odległość 10 m, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 5 cm)', 'sudecka-wataha'); ?></li>
         </ul>
 
-        <h3><?php esc_html_e('Wymagania — karabin', 'sudecka-wataha'); ?></h3>
+        <h3><?php esc_html_e('Wymagania - karabin', 'sudecka-wataha'); ?></h3>
         <ul>
             <li><?php esc_html_e('czas trwania: 5 min', 'sudecka-wataha'); ?></li>
-            <li><?php esc_html_e('ilość strzałów: 5 — boczny zapłon (odległość 50 m, postawa leżąca, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 5 cm) lub pneumatyczny (odległość 10 m, postawa stojąca, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 2 cm)', 'sudecka-wataha'); ?></li>
+            <li><?php esc_html_e('ilość strzałów: 5 - boczny zapłon (odległość 50 m, postawa leżąca, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 5 cm) lub pneumatyczny (odległość 10 m, postawa stojąca, rozrzut min. 4 przestrzelin na tarczy musi się zmieścić w pierścieniu o średnicy 2 cm)', 'sudecka-wataha'); ?></li>
         </ul>
 
-        <h3><?php esc_html_e('Wymagania — strzelba gładkolufowa', 'sudecka-wataha'); ?></h3>
+        <h3><?php esc_html_e('Wymagania - strzelba gładkolufowa', 'sudecka-wataha'); ?></h3>
         <ul>
             <li><?php esc_html_e('ilość strzałów: 5', 'sudecka-wataha'); ?></li>
-            <li><?php esc_html_e('postawa stojąca — latający rzutek (trap): odległość 15 m, trafienie co najmniej 3 rzutków, czas 6 min; lub cele reaktywne (poppery): odległość min. 10 m, trafienie co najmniej 4 celów, czas 3 min.', 'sudecka-wataha'); ?></li>
+            <li><?php esc_html_e('postawa stojąca - latający rzutek (trap): odległość 15 m, trafienie co najmniej 3 rzutków, czas 6 min; lub cele reaktywne (poppery): odległość min. 10 m, trafienie co najmniej 4 celów, czas 3 min.', 'sudecka-wataha'); ?></li>
         </ul>
     </section>
 </article>

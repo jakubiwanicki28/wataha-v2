@@ -14,7 +14,7 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-define('SUDECKA_WATAHA_VER', '1.0.4');
+define('SUDECKA_WATAHA_VER', '1.0.5');
 
 /**
  * Wersja assetu oparta o mtime pliku, aby przelamywac cache po deployu.

@@ -17,7 +17,7 @@ if (! defined('ABSPATH')) {
                 <?php esc_html_e('Kim jesteśmy', 'sudecka-wataha'); ?>
             </h2>
             <p class="pack-grid-section__lead max-w-2xl mx-auto font-light leading-relaxed text-sm sm:text-base">
-                <?php esc_html_e('Strzelectwo sportowe, ludzie z pasją i pewność siebie — od treningu po zawody, w atmosferze otwartej watahy.', 'sudecka-wataha'); ?>
+                <?php esc_html_e('Strzelectwo sportowe, ludzie z pasją i pewność siebie - od treningu po zawody, w atmosferze otwartej watahy.', 'sudecka-wataha'); ?>
             </p>
         </header>
 
@@ -27,12 +27,12 @@ if (! defined('ABSPATH')) {
                     <?php esc_html_e('Strzelectwo wzmacnia koncentrację, kondycję i poczucie bezpieczeństwa; regularne treningi i starty uczą dyscypliny, z której korzystasz także poza strzelnicą.', 'sudecka-wataha'); ?>
                 </p>
                 <p class="home-about__p">
-                    <?php esc_html_e('Organizujemy spotkania, szkolenia i zawody — to także miejsce, by poznać ludzi z podobnym zainteresowaniem. Wataha jest otwarta: wiek i płć nie grają roli, liczą się niekaralność i dobre chęci.', 'sudecka-wataha'); ?>
+                    <?php esc_html_e('Organizujemy spotkania, szkolenia i zawody - to także miejsce, by poznać ludzi z podobnym zainteresowaniem. Wataha jest otwarta: wiek i płć nie grają roli, liczą się niekaralność i dobre chęci.', 'sudecka-wataha'); ?>
                 </p>
                 <ul class="home-about__highlights" role="list">
                     <li><?php esc_html_e('Trening strzelecki i procedury bezpieczeństwa pod okiem doświadczonych osób z klubu.', 'sudecka-wataha'); ?></li>
-                    <li><?php esc_html_e('Starty sportowe i formalności PZSS — pomagamy przejść ścieżkę od klubu po licencję.', 'sudecka-wataha'); ?></li>
-                    <li><?php esc_html_e('Społeczność, która łączy różne środowiska — od pierwszych kroków po konkretne konkurencje.', 'sudecka-wataha'); ?></li>
+                    <li><?php esc_html_e('Starty sportowe i formalności PZSS - pomagamy przejść ścieżkę od klubu po licencję.', 'sudecka-wataha'); ?></li>
+                    <li><?php esc_html_e('Społeczność, która łączy różne środowiska - od pierwszych kroków po konkretne konkurencje.', 'sudecka-wataha'); ?></li>
                 </ul>
             </div>
 
@@ -48,14 +48,14 @@ if (! defined('ABSPATH')) {
                     >
                     <p class="home-about__card-kicker"><?php esc_html_e('Od 2016 roku', 'sudecka-wataha'); ?></p>
                     <p class="home-about__card-text">
-                        <?php esc_html_e('Stowarzyszenie Strzelecki Klub Sportowy „Sudecka Wataha” — zespół ludzi z doświadczeniem strzeleckim, zapisany w KRS pod numerem 0000634605.', 'sudecka-wataha'); ?>
+                        <?php esc_html_e('Stowarzyszenie Strzelecki Klub Sportowy „Sudecka Wataha” - zespół ludzi z doświadczeniem strzeleckim, zapisany w KRS pod numerem 0000634605.', 'sudecka-wataha'); ?>
                     </p>
                     <div class="home-about__card-actions">
                         <a href="<?php echo esc_url(home_url('/o-nas/')); ?>" class="hero__btn hero__btn--outline">
                             <?php esc_html_e('Czytaj całość „O nas”', 'sudecka-wataha'); ?>
                         </a>
                         <a href="<?php echo esc_url(home_url('/jak-zostac-czlonkiem/')); ?>" class="hero__btn hero__btn--fill">
-                            <?php esc_html_e('Dołącz do nas — kroki i dokumenty', 'sudecka-wataha'); ?>
+                            <?php esc_html_e('Dołącz do nas - kroki i dokumenty', 'sudecka-wataha'); ?>
                         </a>
                     </div>
                 </div>

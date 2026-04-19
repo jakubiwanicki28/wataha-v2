@@ -11,7 +11,7 @@ $dzss_kalendarz = 'https://www.dzss.pl/kalendarzdzss';
         <div class="sw-page-head__text">
             <p class="sw-eyebrow"><?php esc_html_e('Formalności', 'sudecka-wataha'); ?></p>
             <h1 class="page-title font-serif"><?php esc_html_e('Licencja sportowa', 'sudecka-wataha'); ?></h1>
-            <p class="sw-lead"><?php esc_html_e('Pierwsza licencja i przedłużenie — procedura w systemie PZSS.', 'sudecka-wataha'); ?></p>
+            <p class="sw-lead"><?php esc_html_e('Pierwsza licencja i przedłużenie - procedura w systemie PZSS.', 'sudecka-wataha'); ?></p>
         </div>
         <figure class="sw-media sw-media--portrait sw-page-head__media" aria-label="<?php esc_attr_e('Miejsce na zdjęcie', 'sudecka-wataha'); ?>">
             <div class="sw-media__frame">
@@ -30,7 +30,7 @@ $dzss_kalendarz = 'https://www.dzss.pl/kalendarzdzss';
             <li><?php esc_html_e('Aby uzyskać przedłużenie licencji bez dodatkowych opłat dla PZSS, należy wykazać minimalną wymaganą do przedłużenia ilość startów, tj.: dla dyscypliny wiodącej: 4 starty do końca roku kalendarzowego; dla dyscyplin dodatkowych: po 2 starty do końca roku kalendarzowego. Stąd istotne jest, aby nie wnioskować o nadanie licencji na sam koniec roku, ponieważ można nie zdążyć z wypełnieniem wymogu startowego, co wiąże się z odrębnymi przepisami oraz opłatami.', 'sudecka-wataha'); ?></li>
         </ul>
 
-        <h3><?php esc_html_e('Procedura — pierwsza licencja', 'sudecka-wataha'); ?></h3>
+        <h3><?php esc_html_e('Procedura - pierwsza licencja', 'sudecka-wataha'); ?></h3>
         <ol>
             <li><?php esc_html_e('Zaloguj się na swój profil zawodnika w systemie informatycznym PZSS oraz w zakładce „Wnioski – licencje zawodnicze” wybierz wniosek o nową licencję.', 'sudecka-wataha'); ?></li>
             <li><?php esc_html_e('Po wypełnieniu i wysłaniu wniosku, wykonaj przelew na ok. 50 zł na konto Klubu tytułem: „[imię i nazwisko] licencja zawodnicza 2023”.', 'sudecka-wataha'); ?></li>
@@ -56,12 +56,12 @@ $dzss_kalendarz = 'https://www.dzss.pl/kalendarzdzss';
         <p><?php esc_html_e('Wnioski o przedłużenie licencji można wysyłać najwcześniej w listopadzie bieżącego roku, jednakże najpierw Klub musi uzyskać przedłużenie licencji klubowej, które wymaga przedstawienia m.in. dowodu uczestnictwa zawodników reprezentujących nasz Klub w co najmniej 4 zawodach klasyfikacji indywidualnej we współzawodnictwie sportowym organizowanym w aktualnym roku kalendarzowym przez PZSS / DZSS.', 'sudecka-wataha'); ?></p>
         <p><?php esc_html_e('Stąd apelujemy o uczestnictwo w imprezach sportowych, które są zamieszczone w kalendarzu:', 'sudecka-wataha'); ?></p>
         <ul>
-            <li><a href="<?php echo esc_url($pzss_kalendarz); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e('Polskiego Związku Strzelectwa Sportowego (PZSS) — Kalendarz', 'sudecka-wataha'); ?></a></li>
-            <li><a href="<?php echo esc_url($dzss_kalendarz); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e('Dolnośląskiego Związku Strzelectwa Sportowego (DZSS) — Kalendarz', 'sudecka-wataha'); ?></a></li>
+            <li><a href="<?php echo esc_url($pzss_kalendarz); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e('Polskiego Związku Strzelectwa Sportowego (PZSS) - Kalendarz', 'sudecka-wataha'); ?></a></li>
+            <li><a href="<?php echo esc_url($dzss_kalendarz); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e('Dolnośląskiego Związku Strzelectwa Sportowego (DZSS) - Kalendarz', 'sudecka-wataha'); ?></a></li>
         </ul>
         <p><?php esc_html_e('Oraz jak najszybsze wysłanie wypełnionej tabeli startów na adres Klubu (sudeckawataha@gmail.com) co przyspieszy proces przedłużenia licencji klubowej.', 'sudecka-wataha'); ?></p>
 
-        <h3><?php esc_html_e('Procedura — przedłużenie', 'sudecka-wataha'); ?></h3>
+        <h3><?php esc_html_e('Procedura - przedłużenie', 'sudecka-wataha'); ?></h3>
         <ol>
             <li><?php esc_html_e('Wyślij e-mail z uzupełnioną tabelę swoich startów na dany rok kalendarzowy na adres Klubu (sudeckawataha@gmail.com);', 'sudecka-wataha'); ?></li>
             <li><?php esc_html_e('Wyślij przelewem ok. 50 zł na konto Klubu tytułem: „[imię i nazwisko] przedłużenie licencji zawodniczej na rok 2024”.', 'sudecka-wataha'); ?></li>

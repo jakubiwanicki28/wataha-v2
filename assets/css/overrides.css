@@ -627,25 +627,88 @@ body.sudecka-wataha .sw-timeline__switch-btn.is-active {
 body.sudecka-wataha .mobile-nav-toggle {
     color: #e5e7eb !important;
     font-family: "Inter", sans-serif !important;
+    font-size: 0.65rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.15em !important;
+    text-transform: uppercase !important;
 }
 
-body.sudecka-wataha .mobile-nav-panel__link {
+body.sudecka-wataha .mobile-nav-panel {
+    background: rgba(31, 41, 55, 0.98) !important;
+}
+
+body.sudecka-wataha .mobile-nav-panel__link,
+body.sudecka-wataha a.mobile-nav-panel__link {
     color: #a1a1aa !important;
     font-family: "Inter", sans-serif !important;
+    font-size: 0.7rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.14em !important;
+    text-transform: uppercase !important;
     text-decoration: none !important;
+    display: block !important;
 }
 
-body.sudecka-wataha .mobile-nav-panel__link:hover {
+body.sudecka-wataha .mobile-nav-panel__link:hover,
+body.sudecka-wataha a.mobile-nav-panel__link:hover {
     color: #fda4af !important;
 }
 
-body.sudecka-wataha .mobile-nav-panel__link--active {
+body.sudecka-wataha .mobile-nav-panel__link--active,
+body.sudecka-wataha a.mobile-nav-panel__link--active {
     color: #fda4af !important;
+}
+
+body.sudecka-wataha .mobile-nav-panel__link--sub,
+body.sudecka-wataha a.mobile-nav-panel__link--sub {
+    font-size: 0.8125rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.04em !important;
+    text-transform: none !important;
+    color: #9ca3af !important;
 }
 
 body.sudecka-wataha .mobile-nav-details__summary {
     color: #d4d4d8 !important;
     font-family: "Inter", sans-serif !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+}
+
+/* ── Mobile responsive fixes ── */
+@media (max-width: 639px) {
+    body.sudecka-wataha .hero__title {
+        font-size: 1.75rem !important;
+    }
+
+    body.sudecka-wataha .hero__kicker {
+        letter-spacing: 0.35em !important;
+        font-size: 0.65rem !important;
+    }
+
+    body.sudecka-wataha .hero__quote {
+        font-size: 0.875rem !important;
+    }
+
+    body.sudecka-wataha .hero__btn {
+        font-size: 0.625rem !important;
+        padding: 0.65rem 1.5rem !important;
+    }
+
+    body.sudecka-wataha .pack-grid-section__title {
+        font-size: 1.5rem !important;
+    }
+
+    body.sudecka-wataha .krs-band__title {
+        font-size: 1.25rem !important;
+    }
+
+    body.sudecka-wataha .home-about__card-actions .hero__btn {
+        font-size: 0.6rem !important;
+        padding: 0.6rem 1rem !important;
+    }
 }
 
 /* ── Reveal animation ── */

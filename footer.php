@@ -17,7 +17,7 @@ if (! defined('ABSPATH')) {
     <div class="site-footer__legal">
         <p class="site-footer__krs font-serif"><?php esc_html_e('KRS 0000634605', 'sudecka-wataha'); ?></p>
         <p class="site-footer__krs-desc">
-            <?php esc_html_e('Zarejestrowani w KRS jako Stowarzyszenie Strzelecki Klub Sportowy Sudecka Wataha — Sąd Rejonowy we Wrocławiu.', 'sudecka-wataha'); ?>
+            <?php esc_html_e('Zarejestrowani w KRS jako Stowarzyszenie Strzelecki Klub Sportowy Sudecka Wataha - Sąd Rejonowy we Wrocławiu.', 'sudecka-wataha'); ?>
         </p>
     </div>
     <p class="site-footer__note text-xs tracking-widest uppercase mb-4">

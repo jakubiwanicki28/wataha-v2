@@ -13,7 +13,7 @@ $strzelnica_url = 'https://strzelnicasudecka.pl/';
         <div class="sw-page-head__text">
             <p class="sw-eyebrow"><?php esc_html_e('Członkostwo', 'sudecka-wataha'); ?></p>
             <h1 class="page-title font-serif"><?php esc_html_e('Jak zostać członkiem?', 'sudecka-wataha'); ?></h1>
-            <p class="sw-lead"><?php esc_html_e('Kroki, dokumenty i składki — od deklaracji po decyzję zarządu.', 'sudecka-wataha'); ?></p>
+            <p class="sw-lead"><?php esc_html_e('Kroki, dokumenty i składki - od deklaracji po decyzję zarządu.', 'sudecka-wataha'); ?></p>
         </div>
         <figure class="sw-media sw-media--portrait sw-page-head__media" aria-label="<?php esc_attr_e('Miejsce na zdjęcie', 'sudecka-wataha'); ?>">
             <div class="sw-media__frame">
@@ -72,7 +72,7 @@ $strzelnica_url = 'https://strzelnicasudecka.pl/';
             <li>
                 <?php esc_html_e('Dostarcz wydrukowane i podpisane dokumenty (deklaracja oraz oświadczenie) na najbliższe spotkanie Stowarzyszenia lub', 'sudecka-wataha'); ?>
                 <a href="<?php echo esc_url($strzelnica_url); ?>" target="_blank" rel="noopener noreferrer"><?php esc_html_e('Strzelnicę Sudecką', 'sudecka-wataha'); ?></a>
-                <?php esc_html_e('(ul. Kolonia 11, Bystrzyca Kłodzka) — po uprzednim kontakcie telefonicznym.', 'sudecka-wataha'); ?>
+                <?php esc_html_e('(ul. Kolonia 11, Bystrzyca Kłodzka) - po uprzednim kontakcie telefonicznym.', 'sudecka-wataha'); ?>
             </li>
         </ol>
         <p><?php esc_html_e('I to tylko tyle z Twojej strony…', 'sudecka-wataha'); ?></p>

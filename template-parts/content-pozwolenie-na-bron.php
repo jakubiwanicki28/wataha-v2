@@ -12,7 +12,7 @@ $nts_egzamin = 'http://www.towarzystwostrzeleckie.org/egzamin-na-pozwolenie-kole
         <div class="sw-page-head__text">
             <p class="sw-eyebrow"><?php esc_html_e('Formalności', 'sudecka-wataha'); ?></p>
             <h1 class="page-title font-serif"><?php esc_html_e('Pozwolenie na broń', 'sudecka-wataha'); ?></h1>
-            <p class="sw-lead"><?php esc_html_e('Ścieżka sportowa i kolekcjonerska — kroki, dokumenty i porównanie.', 'sudecka-wataha'); ?></p>
+            <p class="sw-lead"><?php esc_html_e('Ścieżka sportowa i kolekcjonerska - kroki, dokumenty i porównanie.', 'sudecka-wataha'); ?></p>
         </div>
         <figure class="sw-media sw-media--landscape sw-page-head__media" aria-label="<?php esc_attr_e('Miejsce na zdjęcie', 'sudecka-wataha'); ?>">
             <div class="sw-media__frame">
@@ -25,7 +25,7 @@ $nts_egzamin = 'http://www.towarzystwostrzeleckie.org/egzamin-na-pozwolenie-kole
 
     <section class="sw-section sw-section--roadmap" id="roadmapa-pozwolenie">
         <h2><?php esc_html_e('Roadmapa: krok po kroku', 'sudecka-wataha'); ?></h2>
-        <p><?php esc_html_e('Dwie ścieżki prowadzą do pozwolenia na broń. Tam, gdzie się pokrywają — widzisz wspólny krok.', 'sudecka-wataha'); ?></p>
+        <p><?php esc_html_e('Dwie ścieżki prowadzą do pozwolenia na broń. Tam, gdzie się pokrywają - widzisz wspólny krok.', 'sudecka-wataha'); ?></p>
 
         <div class="sw-timeline is-path-sport" data-timeline>
             <div class="sw-timeline__legend" aria-label="<?php esc_attr_e('Legenda', 'sudecka-wataha'); ?>">
@@ -166,7 +166,7 @@ $nts_egzamin = 'http://www.towarzystwostrzeleckie.org/egzamin-na-pozwolenie-kole
                         <span class="sw-timeline__badge sw-timeline__badge--finish" aria-hidden="true">&#10003;</span>
                         <div class="sw-timeline__card-inner">
                             <h4><?php esc_html_e('Kup broń i amunicję', 'sudecka-wataha'); ?></h4>
-                            <p><?php esc_html_e('Finał ścieżki — gratulacje!', 'sudecka-wataha'); ?></p>
+                            <p><?php esc_html_e('Finał ścieżki - gratulacje!', 'sudecka-wataha'); ?></p>
                         </div>
                     </article>
                 </li>
@@ -266,8 +266,8 @@ $nts_egzamin = 'http://www.towarzystwostrzeleckie.org/egzamin-na-pozwolenie-kole
                     <p><?php esc_html_e('Podstawowym warunkiem ubiegania się o pozwolenie na broń do celów sportowych jest członkostwo w klubie strzeleckim, np. takim jak Sudecka Wataha.', 'sudecka-wataha'); ?></p>
                     <p><?php esc_html_e('Aby zostać członkiem naszego klubu należy uzupełnić formularz wpisowy, a następnie uiścić opłaty:', 'sudecka-wataha'); ?></p>
                     <ul>
-                        <li><?php esc_html_e('Wpisowe — w tym roku wynosi ono 250 zł; wpłatę należy dokonać na rachunek bankowy o numerze: PKO Bank Polski 39 1020 5112 0000 7002 0440 5098; w tytule przelewu wpisać: „Wpisowe" oraz podać swoje imię i nazwisko.', 'sudecka-wataha'); ?></li>
-                        <li><?php esc_html_e('Opłatę roczną — w tym roku wynosi ona 400 zł. Wpłatę należy dokonać na ten sam rachunek; w tytule przelewu wpisać: „Opłata roczna" oraz podać swoje imię i nazwisko.', 'sudecka-wataha'); ?></li>
+                        <li><?php esc_html_e('Wpisowe - w tym roku wynosi ono 250 zł; wpłatę należy dokonać na rachunek bankowy o numerze: PKO Bank Polski 39 1020 5112 0000 7002 0440 5098; w tytule przelewu wpisać: „Wpisowe" oraz podać swoje imię i nazwisko.', 'sudecka-wataha'); ?></li>
+                        <li><?php esc_html_e('Opłatę roczną - w tym roku wynosi ona 400 zł. Wpłatę należy dokonać na ten sam rachunek; w tytule przelewu wpisać: „Opłata roczna" oraz podać swoje imię i nazwisko.', 'sudecka-wataha'); ?></li>
                     </ul>
                     <p><?php esc_html_e('Otrzymasz od nas drogą mailową potwierdzenie przyjęcia w szeregi naszej Watahy oraz informacje o najbliższym szkoleniu strzeleckim.', 'sudecka-wataha'); ?></p>
                     <p><?php esc_html_e('Będąc członkiem naszej Watahy będziesz miał okazję spotkać się z osobami, które interesują się sportem strzeleckim. Pokażemy Ci jak bezpiecznie obchodzić się z bronią oraz nauczymy Cię z niej strzelać.', 'sudecka-wataha'); ?></p>
@@ -285,7 +285,7 @@ $nts_egzamin = 'http://www.towarzystwostrzeleckie.org/egzamin-na-pozwolenie-kole
                     <p><?php esc_html_e('Aby móc ubiegać się o patent strzelecki wymagany jest minimum trzymiesięczny staż w sportowym klubie strzeleckim, takim jak Sudecka Wataha, ukończenie organizowanego przez nasz klub kursu przygotowawczego oraz uzyskanie pozytywnego wyniku na kończącym kurs przygotowawczy egzaminie. Egzamin będzie się składał z dwóch części:', 'sudecka-wataha'); ?></p>
                     <p><?php esc_html_e('a) Część teoretyczna będzie obejmować sprawdzenie wiedzy z zakresu przepisów takich jak: Ustawa o broni i amunicji; Rozporządzenie dotyczące przechowywania i transportu broni; przepisy Kodeksu Karnego dotyczące broni palnej; przepisy dotyczące dyscyplin sportowych PZSS; zasad bezpieczeństwa; budowy i zasady działania broni.', 'sudecka-wataha'); ?></p>
                     <p><?php esc_html_e('b) Część praktyczna będzie obejmować sprawdzenie umiejętności z zakresu bezpieczeństwa i posługiwania się bronią palną.', 'sudecka-wataha'); ?></p>
-                    <p class="sw-muted"><?php esc_html_e('Uwaga: aktualne wymogi stażu i procedury PZSS mogą się różnić — na stronie „Patent strzelecki" zamieszczono bieżącą procedurę zgodną z wytycznymi związku.', 'sudecka-wataha'); ?></p>
+                    <p class="sw-muted"><?php esc_html_e('Uwaga: aktualne wymogi stażu i procedury PZSS mogą się różnić - na stronie „Patent strzelecki" zamieszczono bieżącą procedurę zgodną z wytycznymi związku.', 'sudecka-wataha'); ?></p>
                 </div>
             </details>
 
@@ -346,8 +346,8 @@ $nts_egzamin = 'http://www.towarzystwostrzeleckie.org/egzamin-na-pozwolenie-kole
                     <p><?php esc_html_e('Warunkiem niezbędnym do ubiegania się o pozwolenie na broń do celów kolekcjonerskich jest członkostwo w klubie o charakterze kolekcjonerskim, takim jak Sudecka Wataha.', 'sudecka-wataha'); ?></p>
                     <p><?php esc_html_e('Aby zostać członkiem naszego klubu należy uzupełnić formularz wpisowy, a następnie uiścić opłaty:', 'sudecka-wataha'); ?></p>
                     <ul>
-                        <li><?php esc_html_e('Wpisowe — w tym roku wynosi ono 250 zł; wpłatę należy dokonać na rachunek: 66 1140 2004 0000 3602 7658 6039; w tytule przelewu wpisać: „Wpisowe" oraz podać swoje imię i nazwisko.', 'sudecka-wataha'); ?></li>
-                        <li><?php esc_html_e('Opłatę roczną — w tym roku wynosi ona 400 zł. Wpłatę na ten sam rachunek; w tytule: „Opłata roczna" oraz imię i nazwisko.', 'sudecka-wataha'); ?></li>
+                        <li><?php esc_html_e('Wpisowe - w tym roku wynosi ono 250 zł; wpłatę należy dokonać na rachunek: 66 1140 2004 0000 3602 7658 6039; w tytule przelewu wpisać: „Wpisowe" oraz podać swoje imię i nazwisko.', 'sudecka-wataha'); ?></li>
+                        <li><?php esc_html_e('Opłatę roczną - w tym roku wynosi ona 400 zł. Wpłatę na ten sam rachunek; w tytule: „Opłata roczna" oraz imię i nazwisko.', 'sudecka-wataha'); ?></li>
                     </ul>
                 </div>
             </details>
